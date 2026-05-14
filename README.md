@@ -36,18 +36,15 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 ---
 
 ## Architecture
-User Question
-↓
-Safety Pre-Check
-↓
-FAISS Semantic Retrieval
-↓
-DistilBERT Extractive QA
-↓
-Safety Post-Check
-↓
-Answer + Source + Confidence Score
 
+| Step | Component |
+|------|-----------|
+| 1 | User Question |
+| 2 | Safety Pre-Check |
+| 3 | FAISS Semantic Retrieval |
+| 4 | DistilBERT Extractive QA |
+| 5 | Safety Post-Check |
+| 6 | Answer + Source + Confidence Score |
 ---
 
 ## Features
