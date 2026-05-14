@@ -50,7 +50,7 @@ Answer + Source + Confidence Score
 
 ## Evaluation Results
 
-![Evaluation Results](results/evaluation_results.png)
+![Evaluation Results](medical-qa-chatbot-slm/results/evaluation_results.png)
 
 | Metric | Score |
 |--------|-------|
