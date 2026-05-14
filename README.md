@@ -11,7 +11,7 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 
 ## Screenshots
 
-![Full UI](screenshots/01_chatbot_ui.png)
+![Full UI](medical-qa-chatbot-slm/screenshots/01_chatbot_ui.png)
 
 ![Normal Answer](screenshots/02_normal_answer.png)
 
