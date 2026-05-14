@@ -13,11 +13,11 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 
 ![Full UI](medical-qa-chatbot-slm/screenshots/01_chatbot_ui.png)
 
-![Normal Answer](screenshots/02_normal_answer.png)
+![Normal Answer](medical-qa-chatbot-slm/screenshots/02_normal_answer.png)
 
-![Blocked Query](screenshots/03_safety_blocked.png)
+![Blocked Query](medical-qa-chatbot-slm/screenshots/03_safety_blocked.png)
 
-![Emergency Flagged](screenshots/04_safety_flagged.png)
+![Emergency Flagged](medical-qa-chatbot-slm/screenshots/04_safety_flagged.png)
 
 ---
 
