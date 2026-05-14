@@ -6,16 +6,32 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 **Disclaimer:** This project is for educational purposes only. Always consult a qualified healthcare professional for medical advice.
 
 ---
-
 ## Screenshots
+
+**Full UI**
 
 ![Full UI](medical-qa-chatbot-slm/screenshots/01_chatbot_ui.png)
 
+---
+
+**Normal Medical Answer**
+
 ![Normal Answer](medical-qa-chatbot-slm/screenshots/02_normal_answer.png)
 
-![Blocked Query](medical-qa-chatbot-slm/screenshots/03_safety_blocked.png)
+---
 
-![Emergency Flagged](medical-qa-chatbot-slm/screenshots/04_safety_flagged.png)
+**Safety Layer - Blocked Query**
+
+![Blocked](medical-qa-chatbot-slm/screenshots/03_safety_blocked.png)
+
+---
+
+**Safety Layer - Emergency Flagged**
+
+![Flagged](medical-qa-chatbot-slm/screenshots/04_safety_flagged.png)
+
+---
+
 
 ---
 
