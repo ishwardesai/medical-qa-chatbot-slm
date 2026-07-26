@@ -50,7 +50,7 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 ## Features
 
 - Semantic RAG retrieval using FAISS and SentenceTransformers
-- Fine-tuned DistilBERT with 94.1% training loss reduction
+- Fine-tuned DistilBERT with 94.4% training loss reduction
 - AI safety guardrails blocking dangerous queries and flagging emergencies
 - Source citations on every answer
 - Confidence scores on every response
@@ -65,10 +65,12 @@ A Medical Question Answering Chatbot built using a fine-tuned DistilBERT model, 
 
 | Metric | Score |
 |--------|-------|
-| Exact Match | 53.3% |
-| Token F1 | 73.5% |
+| Exact Match | 46.7% |
+| Token F1 | 63.0% |
 | Retrieval Accuracy | 100% |
-| Training Loss Reduction | 94.1% |
+| Training Loss Reduction | 94.4% |
+*Evaluated on a 15-question held-out medical QA set. Exact Match requires the answer to match the reference string after normalization; Token F1 credits partial word overlap, which is why it's meaningfully higher.*
+
 
 ---
 
@@ -145,7 +147,6 @@ print(result['answer'])
 - Optimizer: AdamW (lr=3e-5, weight_decay=0.01)
 - Scheduler: Linear warmup + linear decay
 - Hardware: NVIDIA T4 GPU
-- Training time: 20 seconds
 
 ---
 
@@ -179,4 +180,3 @@ The implementation follows the document's recommended 7-step recipe:
 This chatbot is built for educational and portfolio purposes only. It should never be used for actual medical diagnosis or treatment decisions. Always consult a qualified healthcare professional for medical advice.
 
 ---
-
